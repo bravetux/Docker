@@ -1,0 +1,9 @@
+ docker build -t "ubuntu-dok" .
+ docker run -t ubuntu-dok
+
+ Docker will start running. 
+ Windows has some issue with terminal.
+
+ User the Docker Tool to start the Container.
+ Open the command Prompt
+
