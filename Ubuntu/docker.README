@@ -1,5 +1,12 @@
- docker build -t "ubuntu-dok" .
- docker run -t ubuntu-dok
+
+Docker Image Creation
+======================
+$docker build -t "ubuntu-dock" .
+
+Docker Container Creation
+==========================
+$docker run -t ubuntu-dock
+
 
  Docker will start running. 
  Windows has some issue with terminal.
@@ -7,3 +14,9 @@
  User the Docker Tool to start the Container.
  Open the command Prompt
 
+Docker Volume Creation
+======================
+$ docker volume create ubuntu_vol
+
+docker volume ls - List Docker Volumes 
+docker volume inspect ubuntu-dock
